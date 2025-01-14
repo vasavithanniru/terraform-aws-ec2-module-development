@@ -17,3 +17,7 @@ variable "sg_ids"{
     type = list(string)
 #    default = ["sg-04f3d6d67896104a4"]
 }
+
+variable "tags" {
+    default = "ec2-instance"
+}
